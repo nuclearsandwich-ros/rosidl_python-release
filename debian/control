@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-generator-py
+Section: misc
+Priority: extra
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-numpy, python3-pytest, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-index-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-python-cmake-module, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rmw-implementation-cmake, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-parser, ros-turbulent-rosidl-typesupport-c, ros-turbulent-test-interface-files, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-generator-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, ros-turbulent-ament-cmake, ros-turbulent-ament-index-python, ros-turbulent-python-cmake-module, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rmw-implementation-cmake, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-parser, ros-turbulent-rosidl-typesupport-c, ros-turbulent-rosidl-typesupport-interface, ros-turbulent-ros-workspace
+Description: Generate the ROS interfaces in Python.
