@@ -1,0 +1,12 @@
+Source: ros-verystable-rosidl-generator-py
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-numpy, python3-pytest, ros-verystable-ament-cmake, ros-verystable-ament-cmake-pytest, ros-verystable-ament-index-python, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-python-cmake-module, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rmw-implementation-cmake, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-parser, ros-verystable-rosidl-typesupport-c, ros-verystable-test-interface-files, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosidl-generator-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, ros-verystable-ament-cmake, ros-verystable-ament-index-python, ros-verystable-python-cmake-module, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rmw-implementation-cmake, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-parser, ros-verystable-rosidl-typesupport-c, ros-verystable-rosidl-typesupport-interface, ros-verystable-ros-workspace
+Description: Generate the ROS interfaces in Python.
