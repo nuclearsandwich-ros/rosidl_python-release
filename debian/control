@@ -1,0 +1,12 @@
+Source: ros-testing-rosidl-generator-py
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-numpy, python3-pytest, ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-index-python, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-python-cmake-module, ros-testing-rmw, ros-testing-rosidl-cmake, ros-testing-rosidl-generator-c, ros-testing-rosidl-generator-cpp, ros-testing-rosidl-parser, ros-testing-rosidl-runtime-c, ros-testing-rosidl-typesupport-c, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-introspection-c, ros-testing-test-interface-files, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosidl-generator-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, ros-testing-ament-cmake, ros-testing-ament-index-python, ros-testing-python-cmake-module, ros-testing-rmw, ros-testing-rosidl-cmake, ros-testing-rosidl-generator-c, ros-testing-rosidl-parser, ros-testing-rosidl-runtime-c, ros-testing-rosidl-typesupport-c, ros-testing-rosidl-typesupport-interface, ros-testing-ros-workspace
+Description: Generate the ROS interfaces in Python.
